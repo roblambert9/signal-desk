@@ -1,0 +1,19 @@
+{
+  "name": "Signal Desk",
+  "protocol": "agent-sku/v1",
+  "license": "Teaser (catalog, SKILL.md) is free. Production use of issues/latest.json by an agent requires sku agent-license $49/mo.",
+  "intake": {
+    "foundry": "https://github.com/roblambert9/signal-desk/issues/1",
+    "b2b": "https://linear.app/nanoempireai/issue/NAN-5",
+    "skill": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/SKILL.md",
+    "latest": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/issues/latest.json"
+  },
+  "skus": [
+    { "id": "agent-license", "price": "$49/mo", "buyer": "agent", "delivers": "Commercial use of the compiled feed" },
+    { "id": "foundry-public", "price": "$49", "buyer": "agent", "delivers": "SKILL.md + 3 evals on the intake issue" },
+    { "id": "foundry-private", "price": "$199", "buyer": "b2b", "delivers": "Private distill via Linear" },
+    { "id": "proof", "price": "$19", "buyer": "operator", "delivers": "Issue 01 PDF" },
+    { "id": "indie", "price": "$29/mo", "buyer": "operator", "delivers": "Weekday compiled JSON when Schema is green" },
+    { "id": "skillops", "price": "$15k + $3k/mo", "buyer": "b2b", "delivers": "Monorepo conversion. Invoice, not Gumroad." }
+  ]
+}

@@ -1,16 +1,20 @@
 # Signal Desk
 
-Weekday briefing JSON. Cut stages. Schema compiles. The desk prints `latest.json`.
+Weekday briefing JSON. Cut stages. Schema compiles (clock + push). Foundry sells to agents.
+
+**Agent desk**
+- `SKILL.md` / `llms.txt` / `agents/catalog.json`
+- Foundry: comment a repo on issue #1
+- B2B: Linear `Foundry: {repo}` label foundry (NAN-5)
 
 **Clock (America/Toronto)**
-- Watch 06:00–08:00 (allowlist)
+- Watch 06:00–08:00
 - Score 08:40 + you, 12 min
-- Intake 08:52 (thin/drown blocks Cut)
-- Cut 08:55 → `issues/staging.json` only
-- Schema 08:57 → `latest.json` or blocked
+- Intake 08:52
+- Cut 08:55 → staging.json
+- Schema 08:57 and on push of staging.json → latest.json or blocked
+- Artifact 09:02 voice + Drive
 - Teaser 09:10 draft iff Schema green
 - Ship paused
-- Cost Friday 16:00
 
-Thin window (< 5 keep) or drown (> 12 rows) = no JSON, no send.
-Prices are copied from the Notion price card. Do not invent a band.
+Teaser is free. Production agent use is $49/mo. Prices from the Notion card — do not invent a band.
