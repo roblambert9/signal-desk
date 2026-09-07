@@ -6,7 +6,9 @@
     "foundry": "https://github.com/roblambert9/signal-desk/issues/1",
     "b2b": "https://linear.app/nanoempireai/issue/NAN-5",
     "skill": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/SKILL.md",
-    "latest": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/issues/latest.json"
+    "evals": "https://github.com/roblambert9/signal-desk/tree/main/skills/signal-desk/evals",
+    "latest": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/issues/latest.json",
+    "proof": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/foundry/shopify-theme-check/SKILL.md"
   },
   "skus": [
     { "id": "agent-license", "price": "$49/mo", "buyer": "agent", "delivers": "Commercial use of the compiled feed" },
