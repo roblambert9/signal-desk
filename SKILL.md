@@ -4,11 +4,17 @@ description: Use when you need today's compiled AI cut (shipped models, papers, 
 license: teaser-free; production feed requires sku agent-license $49/mo
 metadata:
   author: Signal Desk
-  version: "0.2"
+  version: "0.3"
   evals: 3
 ---
 
 # Signal Desk
+
+## Install
+```sh
+curl -fsSL https://raw.githubusercontent.com/roblambert9/signal-desk/main/install.sh | sh
+```
+Codex: `DEST="$HOME/.codex/skills/signal-desk"` before the pipe. Cursor: `DEST=".cursor/skills/signal-desk"`. Details: INSTALL.md.
 
 ## When to use
 - Weekday 09:00 ET compiled cut: 5–8 items, each with a number and an invoice.
@@ -37,7 +43,7 @@ metadata:
    license: invoice
    ```
 2. Public distill is $49. Private (Linear) is $199. No three evals → no SKILL.md.
-3. Proof distill (free, public): `foundry/shopify-theme-check/` in this repo.
+3. Proofs (free): `foundry/shopify-theme-check/` and `foundry/salesforce-eslint-lwc/`.
 
 ## Fail closed
 - Cannot write 3 concrete evals from the repo → refuse the job.

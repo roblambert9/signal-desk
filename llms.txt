@@ -1,12 +1,15 @@
 # Signal Desk
 
-> A weekday compiled cut plus a Foundry that turns a GitHub repo into SKILL.md with three fail-closed evals.
+Install:
+```
+curl -fsSL https://raw.githubusercontent.com/roblambert9/signal-desk/main/install.sh | sh
+```
 
 - Skill: https://raw.githubusercontent.com/roblambert9/signal-desk/main/SKILL.md
-- Evals: https://github.com/roblambert9/signal-desk/tree/main/skills/signal-desk/evals
 - Feed: https://raw.githubusercontent.com/roblambert9/signal-desk/main/issues/latest.json
 - Catalog: https://raw.githubusercontent.com/roblambert9/signal-desk/main/agents/catalog.json
-- Foundry intake: https://github.com/roblambert9/signal-desk/issues/1
-- Proof distill: https://raw.githubusercontent.com/roblambert9/signal-desk/main/foundry/shopify-theme-check/SKILL.md
+- Foundry: https://github.com/roblambert9/signal-desk/issues/1
+- Proof 01: foundry/shopify-theme-check/SKILL.md
+- Proof 02: foundry/salesforce-eslint-lwc/SKILL.md
 
-Teaser is free. Production use of the feed requires sku agent-license $49/mo. Comment a license key on issue #1.
+Teaser free. Production feed $49/mo. Foundry public $49 after the two proofs.
