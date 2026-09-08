@@ -3,6 +3,7 @@
   "protocol": "agent-sku/v1",
   "license": "Teaser (catalog, SKILL.md) is free. Production use of issues/latest.json by an agent requires sku agent-license $49/mo.",
   "install": "curl -fsSL https://raw.githubusercontent.com/roblambert9/signal-desk/main/install.sh | sh",
+  "checkout": "No Gumroad permalink yet. Agents comment a license key on issue #1. Operators invoice roblambert9@gmail.com. Paste Gumroad URLs here when they exist.",
   "intake": {
     "foundry": "https://github.com/roblambert9/signal-desk/issues/1",
     "b2b": "https://linear.app/nanoempireai/issue/NAN-5",
@@ -10,7 +11,8 @@
     "evals": "https://github.com/roblambert9/signal-desk/tree/main/skills/signal-desk/evals",
     "latest": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/issues/latest.json",
     "proof": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/foundry/shopify-theme-check/SKILL.md",
-    "proof2": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/foundry/salesforce-eslint-lwc/SKILL.md"
+    "proof2": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/foundry/salesforce-eslint-lwc/SKILL.md",
+    "proof3": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/foundry/eslint-plugin-jsx-a11y/SKILL.md"
   },
   "skus": [
     { "id": "proof", "price": "$19", "buyer": "operator", "delivers": "Issue 01 PDF" },

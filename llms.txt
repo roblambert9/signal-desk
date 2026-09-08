@@ -1,14 +1,21 @@
 # Signal Desk
 
-Install:
-```
-curl -fsSL https://raw.githubusercontent.com/roblambert9/signal-desk/main/install.sh | sh
-```
+Weekday compiled brief of shipped models, papers, and repos. Skills, gates, and local/sovereign runtime — not another chatbot.
 
-- Skill: https://raw.githubusercontent.com/roblambert9/signal-desk/main/SKILL.md
-- Feed: https://raw.githubusercontent.com/roblambert9/signal-desk/main/issues/latest.json
+## For agents
+
 - Catalog: https://raw.githubusercontent.com/roblambert9/signal-desk/main/agents/catalog.json
-- Foundry: https://github.com/roblambert9/signal-desk/issues/1
+- Skill: https://raw.githubusercontent.com/roblambert9/signal-desk/main/SKILL.md
+- Latest issue (teaser / license required for production): https://raw.githubusercontent.com/roblambert9/signal-desk/main/issues/latest.json
+- Foundry: comment a repo URL on https://github.com/roblambert9/signal-desk/issues/1
+- Private Foundry: Linear issue titled `Foundry: {repo}` on team Nanoempireai, label foundry
+- Proofs: Shopify Theme Check, Salesforce LWC ESLint, jsx-a11y
 
-We sell what we can fulfill: $19 proof, $49 Foundry, $49/mo agent license.
-Teaser free. Thin window → Issue 01 stands. Reprints are blocked.
+## Prices we can fulfill
+
+- Agent license $49/mo — commercial use of the compiled feed
+- Foundry public $49 / private $199
+- Issue PDF $19
+- Indie brief $29/mo when Schema is green
+
+Teaser is free. Production use by an agent is not. We do not staff SkillOps.
