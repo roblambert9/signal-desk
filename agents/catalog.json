@@ -13,10 +13,10 @@
     "proof2": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/foundry/salesforce-eslint-lwc/SKILL.md"
   },
   "skus": [
+    { "id": "proof", "price": "$19", "buyer": "operator", "delivers": "Issue 01 PDF" },
+    { "id": "indie", "price": "$29/mo", "buyer": "operator", "delivers": "Weekday compiled JSON when Schema is green" },
     { "id": "agent-license", "price": "$49/mo", "buyer": "agent", "delivers": "Commercial use of the compiled feed" },
     { "id": "foundry-public", "price": "$49", "buyer": "agent", "delivers": "SKILL.md + 3 evals on the intake issue" },
-    { "id": "foundry-private", "price": "$199", "buyer": "b2b", "delivers": "Private distill via Linear" },
-    { "id": "proof", "price": "$19", "buyer": "operator", "delivers": "Issue 01 PDF" },
-    { "id": "indie", "price": "$29/mo", "buyer": "operator", "delivers": "Weekday compiled JSON when Schema is green" }
+    { "id": "foundry-private", "price": "$199", "buyer": "b2b", "delivers": "Private distill via Linear" }
   ]
 }

@@ -1,28 +1,25 @@
-# Issue JSON
+# Schema (compiler)
 
-Cut writes `issues/staging.json` only.
-Schema promotes to `issues/NN.json` + `issues/latest.json` or blocks.
+Fail closed. Schema does not rewrite copy.
 
-Root: `{ meta, items, layers }`.
+## Thin (legal)
+```json
+{"status":"thin","window":"…","reason":"Score keep < 5. Issue 01 stands.","latest":"issues/01.json","items":[]}
+```
+Do not promote. `latest.json` stays the last green issue.
 
-## Fail closed
+## Reprint (illegal)
+If `staging.items[].id` set equals `latest.items[].id` set → blocked. A new date on Issue 01 is not Issue 02.
 
-- `items` length 5–8
-- `meta.id`, `title`, `coverLine`, `dek`, `thesis`, `window`
-- `thesis` must not equal Issue 01 if `id != 01`
-- `item.frame` ∈ Gate | Margin | Snapshot | Geometry | Distill | Appliance | Residency | Registry
-- `item.sell.price` **byte-identical** to a Notion Price card `Price`:
-  - `$4k–$18k/mo`
-  - `$199–$799/mo`
-  - `$8k–$25k`
-  - `$1.5k/unit · $8k/set`
-  - `$15k + $3k/mo`
-  - `$6k + $400/mo`
-  - `€8k–€40k`
-  - `$29 / $499 + 20% take`
-- `sell.product`, `sell.why`, ≥1 stat
-- no `rumor|allegedly|sources say|leak|unconfirmed|procurement`
+## Green
+- items 5–8
+- meta.id, title, coverLine, dek, thesis, window
+- thesis ≠ Issue 01 if id ≠ 01
+- frame ∈ Gate | Margin | Snapshot | Geometry | Distill | Appliance | Residency | Registry
+- sell.price exact Price card
+- ≥1 stat
+- no rumor | allegedly | sources say | leak | unconfirmed | procurement
+- layers: Proof $19, Indie $29/mo, Foundry $49/$199, Agent license $49/mo
+- no SkillOps, $1,500, $149, $560k
 
-Local check: `node scripts/validate-issue.mjs issues/staging.json`
-
-Schema does not rewrite copy to make it pass.
+Score is the keep gate. Intake does not override it.

@@ -9,7 +9,6 @@ curl -fsSL https://raw.githubusercontent.com/roblambert9/signal-desk/main/instal
 - Feed: https://raw.githubusercontent.com/roblambert9/signal-desk/main/issues/latest.json
 - Catalog: https://raw.githubusercontent.com/roblambert9/signal-desk/main/agents/catalog.json
 - Foundry: https://github.com/roblambert9/signal-desk/issues/1
-- Proof 01: foundry/shopify-theme-check/SKILL.md
-- Proof 02: foundry/salesforce-eslint-lwc/SKILL.md
 
-Teaser free. Production feed $49/mo. Foundry public $49 after the two proofs.
+We sell what we can fulfill: $19 proof, $49 Foundry, $49/mo agent license.
+Teaser free. Thin window → Issue 01 stands. Reprints are blocked.
