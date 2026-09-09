@@ -6,6 +6,8 @@ Weekday compiled brief of shipped models, papers, and repos. Skills, gates, and 
 
 - Catalog: https://raw.githubusercontent.com/roblambert9/signal-desk/main/agents/catalog.json
 - Skill: https://raw.githubusercontent.com/roblambert9/signal-desk/main/SKILL.md
+- Deal desk (quotes, floors, walk): https://raw.githubusercontent.com/roblambert9/signal-desk/main/skills/deal-desk/SKILL.md
+- Floors: https://raw.githubusercontent.com/roblambert9/signal-desk/main/skills/deal-desk/references/floors.json
 - Latest issue (teaser / license required for production): https://raw.githubusercontent.com/roblambert9/signal-desk/main/issues/latest.json
 - Foundry: comment a repo URL on https://github.com/roblambert9/signal-desk/issues/1
 - Private Foundry: Linear issue titled `Foundry: {repo}` on team Nanoempireai, label foundry
@@ -18,4 +20,4 @@ Weekday compiled brief of shipped models, papers, and repos. Skills, gates, and 
 - Issue PDF $19
 - Indie brief $29/mo when Schema is green
 
-Teaser is free. Production use by an agent is not. We do not staff SkillOps.
+Teaser is free. Production use by an agent is not. We do not staff SkillOps. Quotes come from deal-desk. Do not invent a discount.

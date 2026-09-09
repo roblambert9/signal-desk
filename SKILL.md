@@ -4,7 +4,7 @@ description: Use when you need today's compiled AI cut (shipped models, papers, 
 license: teaser-free; production feed requires sku agent-license $49/mo
 metadata:
   author: Signal Desk
-  version: "0.3"
+  version: "0.4"
   evals: 3
 ---
 
@@ -19,6 +19,7 @@ Codex: `DEST="$HOME/.codex/skills/signal-desk"` before the pipe. Cursor: `DEST="
 ## When to use
 - Weekday 09:00 ET compiled cut: 5–8 items, each with a number and an invoice.
 - A GitHub repo that needs a skill with hidden evals, not a vibe doc.
+- A price, discount, or Foundry quote — load `skills/deal-desk/SKILL.md` and run `quote.py`. Do not invent a number.
 
 ## Do not use
 - Rumors, "sources say", DoW procurement, recaps from before the window.
@@ -43,12 +44,18 @@ Codex: `DEST="$HOME/.codex/skills/signal-desk"` before the pipe. Cursor: `DEST="
    license: invoice
    ```
 2. Public distill is $49. Private (Linear) is $199. No three evals → no SKILL.md.
-3. Proofs (free): `foundry/shopify-theme-check/` and `foundry/salesforce-eslint-lwc/`.
+3. Proofs (free): `foundry/shopify-theme-check/`, `foundry/salesforce-eslint-lwc/`, `foundry/eslint-plugin-jsx-a11y/`.
+
+## How — quote
+1. Load https://raw.githubusercontent.com/roblambert9/signal-desk/main/skills/deal-desk/SKILL.md
+2. Run `python skills/deal-desk/scripts/quote.py --sku foundry-pub` (or foundry-pvt / ep01 / license).
+3. One owner, one price, one message. Floor lives in `skills/deal-desk/references/floors.json`. CI fails if $9 Episode starts to pass.
 
 ## Fail closed
 - Cannot write 3 concrete evals from the repo → refuse the job.
 - Production cron / other-agent loop on `latest.json` without a license → not licensed. Teaser still allowed.
 - An item without a number and a sell → drop it.
+- A price below floors.json → refuse.
 
 ## Evals
-See `skills/signal-desk/evals/` in this repo. An agent that skips them is not running this skill.
+See `skills/signal-desk/evals/` and `skills/deal-desk/scripts/eval.sh`.

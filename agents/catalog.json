@@ -8,6 +8,8 @@
     "foundry": "https://github.com/roblambert9/signal-desk/issues/1",
     "b2b": "https://linear.app/nanoempireai/issue/NAN-5",
     "skill": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/SKILL.md",
+    "desk": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/skills/deal-desk/SKILL.md",
+    "floors": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/skills/deal-desk/references/floors.json",
     "evals": "https://github.com/roblambert9/signal-desk/tree/main/skills/signal-desk/evals",
     "latest": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/issues/latest.json",
     "proof": "https://raw.githubusercontent.com/roblambert9/signal-desk/main/foundry/shopify-theme-check/SKILL.md",
