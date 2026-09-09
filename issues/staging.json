@@ -1,7 +1,1 @@
-{
-  "status": "thin",
-  "window": "7 Sep 08:00 → 8 Sep 08:00 EDT",
-  "reason": "Score keep < 5. Issue 01 stands.",
-  "latest": "issues/01.json",
-  "items": []
-}
+{"status":"thin","window":"2026-09-09","reason":"Score keep < 5. Issue 01 stands.","latest":"issues/01.json","items":[]}
