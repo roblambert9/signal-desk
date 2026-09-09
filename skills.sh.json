@@ -1,0 +1,21 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "The cut",
+      "description": "Weekday compiled feed. Thin windows ship nothing.",
+      "skills": ["signal-desk"]
+    },
+    {
+      "title": "Foundry",
+      "description": "Repo to SKILL.md plus three fail-closed evals. $49 public.",
+      "skills": ["foundry"]
+    },
+    {
+      "title": "Till",
+      "description": "One owner, one price, walk under floor.",
+      "skills": ["deal-desk"]
+    }
+  ]
+}
