@@ -1,0 +1,42 @@
+{
+  "name": "Signal Desk",
+  "description": "Weekday compiled cut plus Foundry distill. Quotes from floors.json. Does not staff SkillOps.",
+  "url": "https://github.com/roblambert9/signal-desk",
+  "provider": { "organization": "Signal Desk", "url": "https://github.com/roblambert9/signal-desk" },
+  "version": "0.4",
+  "capabilities": { "streaming": false, "pushNotifications": false },
+  "defaultInputModes": ["text/plain"],
+  "defaultOutputModes": ["application/json", "text/markdown"],
+  "skills": [
+    {
+      "id": "cut",
+      "name": "compiled-cut",
+      "description": "Fetch issues/latest.json. If the window is thin, ship nothing.",
+      "tags": ["brief", "eval-gated"],
+      "examples": ["What shipped in this window that I can sell?"]
+    },
+    {
+      "id": "foundry",
+      "name": "foundry-public",
+      "description": "Repo URL to SKILL.md plus three fail-closed evals. $49. Comment issue #1.",
+      "tags": ["skill", "evals"],
+      "examples": ["Distill https://github.com/org/name"]
+    },
+    {
+      "id": "quote",
+      "name": "deal-desk",
+      "description": "One-price quote from floors.json. Walk under floor.",
+      "tags": ["quote", "floor"],
+      "examples": ["Quote Foundry private at $99"]
+    }
+  ],
+  "pricing": {
+    "currency": "USD",
+    "skus": [
+      { "id": "foundry-public", "list": 49 },
+      { "id": "foundry-private", "list": 199 },
+      { "id": "agent-license", "list": 49, "period": "month" }
+    ],
+    "checkout": "https://github.com/roblambert9/signal-desk/issues/1"
+  }
+}

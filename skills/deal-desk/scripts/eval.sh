@@ -12,17 +12,17 @@ out="$("${Q[@]}" --sku ep01 --offer 9)" || true
 v=$(printf '%s' "$out" | verdict)
 [[ "$v" == refuse ]] || fail "ep01 @9 expected refuse got $v"
 
-echo "== eval 03 Foundry $99 no trade =="
+echo "== eval 03 Foundry 99 no trade =="
 out="$("${Q[@]}" --sku foundry-pvt --offer 99)" || true
 v=$(printf '%s' "$out" | verdict)
 [[ "$v" == refuse ]] || fail "foundry-pvt @99 expected refuse got $v"
 
-echo "== eval 03b Foundry $169 no trade =="
+echo "== eval 03b Foundry 169 no trade =="
 out="$("${Q[@]}" --sku foundry-pvt --offer 169)" || true
 v=$(printf '%s' "$out" | verdict)
 [[ "$v" == hold-list ]] || fail "foundry-pvt @169 no trade expected hold-list got $v"
 
-echo "== eval 03c Foundry $169 with trade =="
+echo "== eval 03c Foundry 169 with trade =="
 out="$("${Q[@]}" --sku foundry-pvt --offer 169 --trade prepay-24h)"
 v=$(printf '%s' "$out" | verdict)
 [[ "$v" == close ]] || fail "foundry-pvt @169 + trade expected close got $v"
