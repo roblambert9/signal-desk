@@ -1,0 +1,71 @@
+{
+  "currency": "USD",
+  "trades": ["prepay-24h", "named-case-study", "vps-ready", "scope-cut"],
+  "skus": {
+    "ep01": {
+      "name": "Episode 01 PDF",
+      "list": 19,
+      "floor": 19,
+      "period": "one-off",
+      "cart": "Gumroad or SkillStack permalink — paste when live",
+      "deliver": "letter folio PDF"
+    },
+    "season": {
+      "name": "Weekday cut",
+      "list": 29,
+      "floor": 29,
+      "period": "month",
+      "cart": "Gumroad or SkillStack membership",
+      "deliver": "latest.json when Schema is green"
+    },
+    "foundry-pub": {
+      "name": "Foundry public",
+      "list": 49,
+      "floor": 49,
+      "period": "one-off",
+      "cart": "https://github.com/roblambert9/signal-desk/issues/1",
+      "deliver": "SKILL.md + 3 fail-closed evals on the issue"
+    },
+    "foundry-pvt": {
+      "name": "Foundry private",
+      "list": 199,
+      "floor": 169,
+      "period": "one-off",
+      "cart": "Linear Nanoempireai, title prefix Foundry:",
+      "deliver": "private SKILL.md + 3 evals"
+    },
+    "license": {
+      "name": "Agent license",
+      "list": 49,
+      "floor": 49,
+      "period": "month",
+      "cart": "SIGNAL_DESK_LICENSE key",
+      "deliver": "unwatermarked latest.json for production agents"
+    },
+    "playbook": {
+      "name": "AgentForge Operator Playbook",
+      "list": 47,
+      "floor": 47,
+      "period": "one-off",
+      "cart": "PDF + zip in artifacts",
+      "deliver": "playbook PDF + operator kit zip"
+    },
+    "template": {
+      "name": "Coolify template",
+      "list": 497,
+      "floor": 397,
+      "period": "one-off",
+      "cart": "zip + 24h pay",
+      "deliver": "compose + SQL + six workflows + five cards"
+    },
+    "dwy": {
+      "name": "Done-with-you install",
+      "list": 1997,
+      "floor": 1497,
+      "period": "one-off",
+      "cart": "invoice, 14-day scope",
+      "deliver": "draft + live URL + bookable consult-20"
+    }
+  },
+  "never_quote": ["skillops", "team-1500", "operator-149"]
+}
