@@ -1,0 +1,19 @@
+name: foundry-proofs
+
+on:
+  push:
+    paths:
+      - "foundry/**"
+      - "scripts/check-proofs.sh"
+      - ".github/workflows/foundry-proofs.yml"
+  pull_request:
+    paths:
+      - "foundry/**"
+      - "scripts/check-proofs.sh"
+
+jobs:
+  proofs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash scripts/check-proofs.sh

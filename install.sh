@@ -1,6 +1,7 @@
 #!/bin/sh
 # Signal Desk — one-command install for Claude Code / Codex / Cursor.
-# Usage: curl -fsSL https://raw.githubusercontent.com/roblambert9/signal-desk/main/install.sh | sh
+# Preferred: npx skills add roblambert9/signal-desk
+# Fallback: curl -fsSL https://raw.githubusercontent.com/roblambert9/signal-desk/main/install.sh | sh
 set -e
 BASE="https://raw.githubusercontent.com/roblambert9/signal-desk/main"
 if [ -n "$DEST" ]; then
@@ -18,5 +19,6 @@ for f in 01-thin-window 02-invoice-shape 03-license-nag; do
   curl -fsSL "$BASE/skills/signal-desk/evals/${f}.md" -o "$DEST/evals/${f}.md"
 done
 echo "Signal Desk installed → $DEST"
+echo "Or: npx skills add roblambert9/signal-desk"
 echo "Teaser is free. Production loops need SIGNAL_DESK_LICENSE."
 echo "Foundry: https://github.com/roblambert9/signal-desk/issues/1"
